@@ -1,4 +1,5 @@
 import 'jest-preset-angular';
+import '../jest-global-mocks';
 
 try {
     // If the user are using zone.js 0.11.1+
@@ -16,7 +17,3 @@ try {
     require('./patches/zone-patch');
   }
 
-declare const require: any;
-
-const context = require.context( './', true, /\.spec\.ts$/);
-context.keys().map(context);

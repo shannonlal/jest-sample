@@ -11,7 +11,6 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-      { provide: NgZone, useValue: { run(fn): any { return fn(); } }},
     }).compileComponents();
   }));
 
