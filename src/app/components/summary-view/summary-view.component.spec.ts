@@ -19,7 +19,16 @@ describe('SummaryViewComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create summary-view component', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render component with one name', () => {
+
+    component.phones = ['TestPhone'];
+    fixture.detectChanges();
+
+    expect( fixture ).toMatchSnapshot();
+  });
+
 });

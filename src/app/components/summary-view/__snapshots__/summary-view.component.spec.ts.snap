@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SummaryViewComponent should render component with one name 1`] = `
+<app-summary-view
+  phones={[Function Array]}
+>
+  <div>
+    
+    <p>
+       TestPhone 
+    </p>
+  </div>
+</app-summary-view>
+`;

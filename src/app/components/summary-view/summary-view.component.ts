@@ -9,6 +9,8 @@ export class SummaryViewComponent implements OnInit {
 
   constructor() { }
 
+  public phones: string[] = ['iPhone 11', 'iPhone 10', 'Samsung 10'];
+
   ngOnInit(): void {
   }
 
