@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-summary-view',
+  templateUrl: './summary-view.component.html',
+  styleUrls: ['./summary-view.component.scss']
+})
+export class SummaryViewComponent implements OnInit {
+
+  constructor() { }
+
+  public phones: string[] = ['iPhone 11', 'iPhone 10', 'Samsung 10'];
+
+  ngOnInit(): void {
+  }
+
+}
