@@ -1,6 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SummaryViewComponent should render component with one name 1`] = `
+exports[`SummaryViewComponent should render snapshot component with 3 phones 1`] = `
+<app-summary-view
+  phones={[Function Array]}
+>
+  <div>
+    
+    <p>
+       TestPhone 
+    </p>
+    <p>
+       Test Phone B 
+    </p>
+    <p>
+       Test Phone C 
+    </p>
+  </div>
+</app-summary-view>
+`;
+
+exports[`SummaryViewComponent should render snapshot component with one name 1`] = `
 <app-summary-view
   phones={[Function Array]}
 >
